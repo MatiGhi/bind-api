@@ -1,0 +1,26 @@
+{
+  "name": "rbt-bind-api",
+  "version": "1.0.0",
+  "description": "Api intermediaria entre Bind y el CORE",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matias Ghiglione",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-multiparty": "^2.2.0",
+    "express": "^4.17.1",
+    "jwt-simple": "^0.5.6",
+    "log4js": "^6.3.0",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1",
+    "request": "^2.88.2",
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

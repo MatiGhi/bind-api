@@ -1,0 +1,11 @@
+/node_modules
+/app/config/config.js
+/.vcode/
+/.idea/
+/tests/
+*/test/
+/temp/
+/base/
+/logs/
+/*.log
+/*.sql
